@@ -1,0 +1,406 @@
+@charset "utf-8";
+/**
+ * ...
+ * @author Ogilvy Mather Digital - 衝康吉
+ * Wellcome to read this source code.
+ * I might try to use name follow next row
+ *
+ * init/get/set/is/clear/evt/with/sync
+ * resizeTo/releasePoor/passTo
+ */
+
+body {
+	height: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #CC0000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*  
+ * HEADER STYLE
+ * include logo and links
+ */
+
+#header
+{
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	background-color: #CC0000;
+	z-index: 2;
+}
+
+#header_logo
+{
+	float: left;
+	width: 102px;
+	height: 45px;
+	background-image: url('../_img/global/header_ogilvy_logo.jpg');
+	margin-top: 13px;
+	margin-left: 20px;
+}
+
+#header_link
+{
+	float: right;
+	width: 500px;
+	height: 50px;
+	margin-right: 20px;
+	margin-top: 25px;
+
+	color: white;
+	font-size: 10.5px;
+	text-align: right;
+}
+
+#header_link a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#header_link a:hover
+{
+	text-decoration: underline;
+}
+
+/*  
+ * THEME STYLE - 
+ * include recent news and memu
+ */
+
+#theme
+{
+	position: fixed;
+	width: 100%;
+	height: 866px;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	overflow: hidden;
+
+	background-image: url('../_img/global/theme_background_texture.jpg');
+	box-shadow: 0px -15px 50px #000;
+}
+
+#theme_symbol
+{
+	position: absolute;
+	width: 415px;
+	height: 391px;
+	background-image: url('../_img/global/theme/theme.png');
+	z-index: 2;
+	top: 190px;
+	left: 0px;
+}
+
+#ptt_logo
+{
+	width: 184px;
+	height: 104px;
+	margin-top: 103px;
+	background-image: url('../_img/global/PTT_logo.png');
+}
+
+#news_headline
+{
+	width: 874px;
+	height: 17px;
+	margin-top: 14px;
+	background-image: url("../_img/global/news_headline.png");
+	background-position: center left;
+	background-repeat: no-repeat;
+
+	font-size: 12px;
+	color: #333;
+	padding-left: 80px;
+	text-align: left;
+	padding-top: 2px;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#news_headline:hover
+{
+	color: #C00;
+	text-decoration: underline;
+}
+
+#news_theme
+{
+	width: 954px;
+	height: 390px;
+	margin-top: 10px;
+	background-image: url('../_img/global/theme/v20140213.jpg');
+}
+
+#menu
+{
+	width: 897px;
+	height: 226px;
+	padding-left: 57px;
+}
+
+.menu_categorys
+{
+	float: left;
+	width: 168px;
+	height: 226px;
+}
+
+#menu_category_icon_0
+{
+	width: 168px;
+	height: 44px;
+	margin-top: 28px;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-image: url('../_img/global/menu_icon_0.png');
+}
+
+#menu_category_icon_1
+{
+	width: 168px;
+	height: 44px;
+	margin-top: 28px;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-image: url('../_img/global/menu_icon_1.png');
+}
+
+#menu_category_icon_2
+{
+	width: 168px;
+	height: 44px;
+	margin-top: 28px;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-image: url('../_img/global/menu_icon_2.png');
+}
+
+#menu_category_icon_3
+{
+	width: 168px;
+	height: 44px;
+	margin-top: 28px;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-image: url('../_img/global/menu_icon_3.png');
+}
+
+#menu_category_icon_4
+{
+	width: 168px;
+	height: 44px;
+	margin-top: 28px;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-image: url('../_img/global/menu_icon_4.png');
+}
+
+#menu_category_text_0
+{
+	width: 168px;
+	height: 38px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../_img/global/menu_category_0.png');
+}
+
+#menu_category_text_1
+{
+	width: 168px;
+	height: 38px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../_img/global/menu_category_1.png');
+}
+
+#menu_category_text_2
+{
+	width: 168px;
+	height: 38px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../_img/global/menu_category_2.png');
+}
+
+#menu_category_text_3
+{
+	width: 168px;
+	height: 38px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../_img/global/menu_category_3.png');
+}
+
+#menu_category_text_4
+{
+	width: 168px;
+	height: 38px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../_img/global/menu_category_4.png');
+}
+
+.menu_category_href
+{
+	width: 168px;
+	height: 110px;
+	color: #666;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.menu_category_href a
+{
+	color: #666;
+	text-decoration: none;
+}
+
+.menu_category_href a:hover
+{
+	text-decoration: underline;
+}
+
+
+/*  
+ * FOOTER STYLE - 
+ * include recent news and memu
+ */
+
+#footer
+{
+	float: left;
+	width: 100%;
+	height: 265px;
+	text-align: center;
+	margin-top: 73px;
+	background-image: url('../_img/global/redbackground.jpg');
+}
+/*  
+ * ARTICLE STYLE - 
+ * include recent news and memu
+ */
+
+#article
+{
+	float: left;
+	width: 100%;
+	margin-top: 926px;
+	z-index: -1;
+}
+
+.white_style
+{
+	background-color: #EEE;
+	color: #333;
+}
+
+.red_style
+{
+	background-image: url('../_img/global/redbackground.jpg');
+	background-color: #C00;
+	color: white;
+}
+
+#section
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	height: auto;
+}
+
+#article_headline
+{
+	width: 954px;
+	height: 20px;
+	margin-top: 47px;
+	background-repeat: no-repeat;
+	background-position-x: 44px;
+}
+
+#article_content
+{
+	width: 874px;
+
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	font-size: 13px;
+	line-height: 32px;
+}
+
+#article_content a
+{
+	color: #333;
+}
+
+#article_content p
+{
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.ps
+{
+	color: #878787;
+}
+
+.ps_black
+{
+	color: #000;
+}
+
+.indent
+{
+	margin-left: 12px;
+}
+
+#alert
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+
+	z-index: 200;
+	background: rgba(0,0,0,.7);
+	/*background-image: url('../_img/theme_alert.jpg');
+	background-position: center 200px;
+	background-repeat: no-repeat;*/
+
+	cursor: pointer;
+	visibility: hidden;
+}
+
+#alert_content {
+	position: absolute;
+	margin-left: -450px;
+	top: 14%;
+	left: 50%;
+	width: auto;
+	height: 80%;
+	overflow-y: scroll;
+}
+
+#alert_content<img {
+	width: 900px;
+	height: 1950px;
+}	
+
