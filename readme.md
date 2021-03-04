@@ -3,24 +3,3 @@
 
 ## Ogilvy紅領帶官網
 
-
-### pre-install
-
-```
-$ [sudo] npm i webpack webpack-cli webpack-dev-server node-pre-gyp -g
-$ npm i
-```
-
-### test project
-
-```
-$ npm start
-```
-
-#### test on http://localhost:8080
-
-### output to /dist
-
-```
-$ npm run build
-```
