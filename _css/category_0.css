@@ -1,0 +1,198 @@
+@charset "utf-8";
+/**
+ * ...
+ * @author Ogilvy Mather Digital - 衝康吉
+ * Wellcome to read this source code.
+ * I might try to use name follow next row
+ *
+ * init/get/set/is/clear/evt/with/sync
+ * resizeTo/releasePoor/passTo
+ */
+
+
+.category_0_0
+{
+	background-image: url('../_img/category_0/headline_0.png');
+}
+
+.category_0_1
+{
+	background-image: url('../_img/category_0/headline_1.png');
+}
+
+.category_0_2
+{
+	background-image: url('../_img/category_0/headline_2.png');
+}
+
+.category_0_3
+{
+	background-image: url('../_img/category_0/headline_3.png');
+}
+
+#article_slider
+{
+	position: relative;
+	width: 954px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#article_slider_container
+{
+	position: absolute;
+	width: 6678px;
+	height: 400px;
+	left: 0px;
+}
+
+#article_slider_controller
+{
+	width: 954px;
+	height: 20px;
+}
+
+#article_slider_content
+{
+	float: left;
+	width: 954px;
+	height: 400px;
+}
+
+#article_slider_content p
+{
+	line-height: 28px;
+}
+
+#slider_button_container
+{
+	width: 100px;
+	height: 20px;
+}
+
+.slider_button
+{
+	width: 10px;
+	height: 10px;
+	background-image: url('../_img/category_0/slider_button.png');
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+.section_2
+{
+	height: 801px;
+	background-image: url('../_img/category_0/section_2_1.png');
+	background-repeat: no-repeat;
+	background-position: 48px 0px;
+}
+
+#article_section_2
+{
+	position: relative;
+	width: 435px;
+	height: auto;
+}
+
+.section_2_0
+{
+	position: absolute;
+	top: -10px;
+	left: 480px;
+}
+
+.section_2_1
+{
+	position: absolute;
+	top: 45px;
+	left: 480px;
+}
+
+.section_2_2
+{
+	position: absolute;
+	top: 85px;
+	left: 480px;
+}
+
+.section_2_3
+{
+	position: absolute;
+	top: 125px;
+	left: 480px;
+}
+
+.section_2_4
+{
+	position: absolute;
+	top: 165px;
+	left: 480px;
+}
+
+.section_2_5
+{
+	position: absolute;
+	top: 190px;
+	left: 480px;
+}
+
+.section_2_6
+{
+	position: absolute;
+	top: 230px;
+	left: 480px;
+}
+
+#article_section_3
+{
+	width: 867px;
+	background-image: url('../_img/category_0/section_3_0.png');
+	margin-bottom: 35px;
+	background-color: red;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+#article_section_3_headine
+{
+	width: 410px;
+	height: 25px;
+	margin-left: 228px;
+}
+
+#article_section_3_content
+{
+	width: 867px;
+	text-align: center;
+	margin-top: 31px;
+}
+
+.section_3_headine_0
+{
+	background-image: url('../_img/category_0/section_3_1.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.section_3_headine_1
+{
+	background-image: url('../_img/category_0/section_3_2.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.section_3_headine_2
+{
+	background-image: url('../_img/category_0/section_3_3.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.section_3_headine_3
+{
+	background-image: url('../_img/category_0/section_3_4.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}

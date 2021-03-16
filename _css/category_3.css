@@ -1,0 +1,235 @@
+@charset "utf-8";
+/**
+ * ...
+ * @author Ogilvy Mather Digital - 衝康吉
+ * Wellcome to read this source code.
+ * I might try to use name follow next row
+ *
+ * init/get/set/is/clear/evt/with/sync
+ * resizeTo/releasePoor/passTo
+ */
+
+.category_3_0
+{
+	background-image: url('../_img/category_3/headline_0.png');
+}
+
+.category_3_1
+{
+	background-image: url('../_img/category_3/headline_1.png');
+}
+
+#article_section_1
+{
+	width: 953px;
+	height: auto;
+	margin-top: 56px;
+}
+
+.article_section_1_menu_session_container
+{
+	width: 100%;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+
+#article_section_1_menu
+{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+
+#article_section_1_blog
+{
+	float: right;
+	width: 750px;
+	height: auto;
+	background-color: white;
+	margin-bottom: 60px;
+}
+
+.article_section_1_menu_session
+{
+	float: left;
+	font-size: 13px;
+	line-height: 42px;
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 42px;
+	overflow: hidden;
+}
+
+.menu_session
+{
+	width: 165px;
+	background-color: #7d0202;
+	background-image: url('../_img/category_3/menu_session_more.png');
+	background-position: 153px center;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.menu_member_on
+{
+	width: 155px;
+	background-color: #9b0101;
+	background-image: url('../_img/category_3/menu_member.png');
+	background-position: 15px center;
+	padding-left: 25px;
+	cursor: default;
+}
+
+.menu_member_off
+{
+	width: 155px;
+	background-color: #b20101;
+	background-position: 15px center;
+	padding-left: 25px;
+	cursor: pointer;
+	background-image: none;
+}
+
+.menu_member_off:hover
+{
+	background-color: #9b0101;
+	background-image: url('../_img/category_3/menu_member.png');
+}
+
+#blog_theme
+{
+	width: 100%;
+	height: auto;
+	background-color: orange;
+}
+
+#blog_container
+{
+	width: 670px;
+	height: auto;
+	background-color: white;
+	padding: 40px;
+	text-align: left;
+}
+
+#blog_title
+{
+	width: 662px;
+	height: 16px;
+	border-left: solid 4px #333;
+	font-size: 13px;
+	color: #000;
+	padding-left: 4px;
+	line-height: 16px;
+}
+
+#blog_body
+{
+	width: 100%;
+	height: auto;
+	font-size: 13px;
+	color: #666;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#blog_btns
+{
+	width: 100%;
+	height: 27px;
+}
+
+.btn
+{
+	float: right;
+	width: 90px;
+	height: 26px;
+	background-color: #cb0101;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-image: url('../_img/category_3/btn_top.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+}
+
+.btn:hover
+{
+	background-color: #7d0202;
+};
+
+#article_section_1
+{
+	float: left;
+	width: 953px;
+	height: 3000px;
+}
+
+#album_title
+{
+	height: 176px;
+	width: 953px;
+	text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-top: 54px;
+}
+
+#album_container
+{
+	float: left;
+	width: 953px;
+	height: auto;
+	margin-top: 37px;
+	margin-bottom: 37px;
+}
+
+.album_photo
+{
+	position: relative;
+	float: left;
+	width: 190px;
+	height: 190px;
+	overflow: hidden;
+	cursor: pointer;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	-webkit-filter: grayscale(1);
+}
+
+.album_photo:hover
+{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+	filter: none;
+	-webkit-filter: grayscale(0);
+}
+
+#album_box
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.8);
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 3;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#album_close
+{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-image: url('../_img/category_3/album_close.png');
+}

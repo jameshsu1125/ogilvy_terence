@@ -1,0 +1,44 @@
+@charset "utf-8";
+/**
+ * ...
+ * @author Ogilvy Mather Digital - 衝康吉
+ * Wellcome to read this source code.
+ * I might try to use name follow next row
+ *
+ * init/get/set/is/clear/evt/with/sync
+ * resizeTo/releasePoor/passTo
+ */
+
+.category_1_0
+{
+	background-image: url('../_img/category_1/headline_0.png');
+}
+
+.category_1_1
+{
+	background-image: url('../_img/category_1/headline_1.png');
+}
+
+#section_1_0
+{
+	width: 934px;
+	height: 45px;
+	background-image: url('../_img/category_1/section_1_0.png');
+	background-repeat: no-repeat;
+
+	margin-left: -20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#section_1_1
+{
+	width: 934px;
+	height: 45px;
+	background-image: url('../_img/category_1/section_1_1.png');
+	background-repeat: no-repeat;
+
+	margin-left: -20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
