@@ -67,7 +67,11 @@ $.ajax({
 		}
 	},
 	error: function (err) {
-		if (location.hostname === '127.0.0.1') return;
+		if (
+			location.hostname === '127.0.0.1' ||
+			location.hostname === 'jameshsu1125.github.io'
+		)
+			return;
 		alert('error');
 	},
 });
