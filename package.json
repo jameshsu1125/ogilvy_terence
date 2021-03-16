@@ -8,7 +8,7 @@
 		"start": "export NODE_ENV=development && webpack serve --config ./webpack.config.js --mode development",
 		"rm": "rm -rf node_modules/ package-lock.json",
 		"unused": "webpack --mode production --env.unused=true",
-		"deploy": "gh-pages -d dist"
+		"deploy": "touch .nojekyll && gh-pages -d dist"
 	},
 	"private": "true",
 	"browserslist": {
