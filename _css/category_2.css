@@ -221,13 +221,13 @@ a:visited {
 
 	font-size: 1.4em;
 	font-family: 'PMingLiU', sans-serif;
+	font-weight: bolder;
 }
 
 #section_2_question span {
 	font-size: 2.5em;
 	margin-right: 10px;
 	font-family: 'Cormorant Garamond', sans-serif;
-	font-weight: bolder;
 }
 
 .section_2_background {
