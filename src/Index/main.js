@@ -21,6 +21,6 @@ export default class index extends React.Component {
 	}
 
 	render() {
-		return <div id='index'></div>;
+		return <div id='_announcement'></div>;
 	}
 }

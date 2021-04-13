@@ -17,10 +17,22 @@ module.exports = (env) => {
 				{ test: /\.(js|jsx)$/, exclude: /node_modules/, use: 'babel-loader?retainLines=true' },
 				{ test: /\.s[ac]ss$/i, use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'] },
 				{ test: /\.css$/, use: ['style-loader', 'css-loader', 'postcss-loader'] },
-				{ test: /\.(png|jpg|gif|svg)$/, use: [{ loader: 'file-loader', options: { name: 'bundle/img/[path][name].[ext]', context: 'src' } }] },
-				{ test: /\.(ogv|mp4)$/, use: [{ loader: 'file-loader', options: { name: 'bundle/vid/[path][name].[ext]', context: 'src' } }] },
-				{ test: /\.(wav|mp3)$/, use: [{ loader: 'file-loader', options: { name: 'bundle/aud/[path][name].[ext]', context: 'src' } }] },
-				{ test: /\.(eot|woff|woff2|ttf)$/, use: [{ loader: 'file-loader', options: { name: 'bundle/font/[path][name].[ext]', context: 'src' } }] },
+				{
+					test: /\.(png|jpg|gif|svg)$/,
+					use: [{ loader: 'file-loader', options: { name: 'bundle/img/[path][name].[ext]', context: 'src' } }],
+				},
+				{
+					test: /\.(ogv|mp4)$/,
+					use: [{ loader: 'file-loader', options: { name: 'bundle/vid/[path][name].[ext]', context: 'src' } }],
+				},
+				{
+					test: /\.(wav|mp3)$/,
+					use: [{ loader: 'file-loader', options: { name: 'bundle/aud/[path][name].[ext]', context: 'src' } }],
+				},
+				{
+					test: /\.(eot|woff|woff2|ttf)$/,
+					use: [{ loader: 'file-loader', options: { name: 'bundle/font/[path][name].[ext]', context: 'src' } }],
+				},
 			],
 		},
 		resolve: {
