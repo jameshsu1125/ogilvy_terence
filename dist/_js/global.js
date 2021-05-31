@@ -1,5 +1,5 @@
 var documentTitle = '奧美林宗緯紅領帶計劃';
-var newsText = '第十三屆奧美林宗緯紅領帶計畫口試名單';
+var newsText = '第十三屆奧美林宗緯紅領帶計畫實習名單';
 var header_links = [
 	{ name: "<img src='_img/global/home_icon.png'>回首頁", url: '#home' },
 	/*{name:"聯絡我們", url:"http://www.ogilvy.com.tw/terence/popup2.asp"}, */
